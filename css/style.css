@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/************
+ header section css
+ ***********/
+body{
+	font-family: 'Roboto', sans-serif;
+}
+a{
+   text-decoration: none;
+}
+.wrapper{
+	width: 100%;
+	padding: 100px 0px;
+   background: linear-gradient(to left, rgb(79, 41, 221), rgb(197, 124, 241));
+}
+.form-box{
+	width: 1000px;
+	background-color: white;
+	margin: auto;
+	border-radius: 8px;
+}
+.form-row{
+	display: flex;
+}
+.form-left, .form-right{
+	flex-basis: 50%;
+}
+.img-fluid{
+   max-width: 100%;
+   height: auto;
+}
+.form-right{
+	padding: 50px 24px;
+}
+.form-right h2{
+	color: black;
+	font-weight: 400;
+}
+.form-right p{
+	color: rgb(105, 105, 105);
+   padding: 18px 0px;
+}
+.form-right p span{
+	color: rgb(0, 102, 255);
+}
+.form-right p span:hover {
+   color: red;
+   cursor: pointer;
+}
+.content{
+	width: 100%;
+}
+.form-group{
+	display: flex;
+}
+.group-left, .group-right{
+	flex-basis: 42%;
+}
+.text{
+	font-size: 12px;
+}
+.blank{
+	padding: 6px 0px;
+   margin: 8px 0px;
+}
+.blank:focus{
+	outline: none;
+	border: none;
+	border-bottom: 1px solid rgb(0, 102, 255);
+}
+.bottom {
+   color: rgb(105, 105, 105);
+   margin: 8px 0px;
+}
+.bottom span {
+   color: rgb(0, 102, 255);
+   font-weight: 500;
+}
+.bottom span:hover {
+   color: red;
+   cursor: pointer;
+}
+.btn button{
+	background-color: rgb(0, 102, 255);
+   color: white;
+	padding: 12px 16px;
+	margin: 8px 0px;
+	border-radius: 4px;
+	border: none;
+}
+.btn button:hover{
+	background-color: red;
+   cursor: pointer;
+}
